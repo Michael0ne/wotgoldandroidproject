@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/block_bg"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заблокирован"
+        android:id="@+id/mAdmBlock"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваш аккаунт был временно заблокирован администратором по причине указанной ниже."
+        android:id="@+id/mAdmBlockDesc"
+        android:layout_below="@+id/mAdmBlock"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:id="@+id/mAdmBlockReason"
+        android:layout_below="@+id/mAdmBlockDesc"
+        android:layout_alignLeft="@+id/mAdmBlockDesc"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        android:textSize="14dp"
+        android:textColor="#fff" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/mAdmBlockReason"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:id="@+id/space"
+        android:background="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата начала блокировки:"
+        android:id="@+id/mAdmBlockTimeS"
+        android:layout_below="@+id/space"
+        android:layout_alignLeft="@+id/mAdmBlockDesc"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата снятия блокировки:"
+        android:id="@+id/mAdmBlockTimeE"
+        android:layout_below="@+id/mAdmBlockTimeS"
+        android:layout_alignLeft="@+id/mAdmBlockTimeS"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:id="@+id/mAdmBlockTimeST"
+        android:layout_alignTop="@+id/mAdmBlockTimeS"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:id="@+id/mAdmBlockTimeET"
+        android:layout_alignTop="@+id/mAdmBlockTimeE"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff" />
+
+</RelativeLayout>

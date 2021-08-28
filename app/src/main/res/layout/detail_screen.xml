@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/coins_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Детали заявки"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:textStyle="bold"
+        android:id="@+id/textView5"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата подачи заявки:"
+        android:id="@+id/mDateAdded"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Количество золота:"
+        android:id="@+id/mGoldCount"
+        android:layout_below="@+id/mDateAdded"
+        android:layout_alignLeft="@+id/mDateAdded"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Текущий статус:"
+        android:id="@+id/mCurrStatus"
+        android:layout_below="@+id/mGoldCount"
+        android:layout_alignLeft="@+id/mGoldCount"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Игровой никнейм:"
+        android:id="@+id/mWotNickname"
+        android:layout_below="@+id/mCurrStatus"
+        android:layout_alignLeft="@+id/mGoldCount"
+        android:textColor="#fff"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:id="@+id/mDateAddedT"
+        android:layout_alignTop="@+id/mDateAdded"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/mDateAdded"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:id="@+id/mGoldCountT"
+        android:layout_alignTop="@+id/mGoldCount"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_toRightOf="@+id/textView5"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:id="@+id/mCurrStatusT"
+        android:layout_alignTop="@+id/mCurrStatus"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_toRightOf="@+id/textView5"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="..."
+        android:id="@+id/mWotNicknameT"
+        android:layout_alignTop="@+id/mWotNickname"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_toRightOf="@+id/textView5"
+        android:textColor="#fff" />
+</RelativeLayout>

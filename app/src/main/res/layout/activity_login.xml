@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="#000000">
+
+    <!-- Login progress -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mBackgroundImage"
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="15dp" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:id="@+id/space"
+        android:layout_marginTop="160dp" />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:id="@+id/email"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_below="@+id/mBackgroundImage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="электронная почта"
+        android:layout_marginTop="25dp"
+        android:maxLines="1"
+        style="@style/TextFieldDark"
+        android:background="@drawable/textfielddark"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:layout_below="@+id/email"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="пароль"
+        android:maxLines="1"
+        style="@style/TextFieldDark"
+        android:background="@drawable/textfielddark"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="запомнить меня"
+        android:button="@drawable/checkbox_visual"
+        android:id="@+id/mRememberChk"
+        android:layout_below="@+id/password"
+        android:layout_alignLeft="@+id/password"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:checked="false"
+        android:textSize="16dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="войти"
+        android:id="@+id/email_sign_in_button"
+        android:layout_below="@+id/mRememberChk"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/mSignupButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Регистрация"
+        android:id="@+id/mSignupButton"
+        android:layout_alignTop="@+id/email_sign_in_button"
+        android:layout_alignRight="@+id/password" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Помощь"
+        android:id="@+id/mHelpButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#2196F3"
+        android:layout_marginBottom="30dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>

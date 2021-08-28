@@ -1,0 +1,43 @@
+{
+  "project_info": {
+	"project_id": "tanksgold-6434c",
+    "project_number": "1093818340156",
+	
+    "firebase_url": "https://tanksgold-6434c.firebaseio.com",
+    "storage_bucket": "tanksgold-6434c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093818340156:android:7703c28cc9e72257",
+        "android_client_info": {
+          "package_name": "com.tanks.gold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093818340156-8kk0sujdugeifegp6v9f3kfh3rn5ean1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0eA1qGya-s-kAIErVNsVDXuojjZ41_no"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">WOTgold</string>
+    <string name="title_activity_login">Вход</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">электронный адрес</string>
+    <string name="prompt_password">пароль</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Этот адрес электронной почты неверен</string>
+    <string name="error_invalid_password">Пароль слишком короткий</string>
+    <string name="error_incorrect_password">Пароль неверен</string>
+    <string name="error_field_required">Данное поле обязательно</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="clicksf" formatted="false">%d/%d кликов</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3272387314575556/8264495811</string>
+    <string name="banner_app_id">ca-app-pub-3272387314575556~2807301417</string>
+
+    <string name="button_show_ad">Посмотреть видео рекламу</string>
+
+    <string name="events_title">события</string>
+    <string name="events_active">текущие</string>
+    <string name="events_archive">прошедшие</string>
+
+    <string name="event_withdraw_unknown">неизвестно</string>
+    <string name="event_withdraw_processing">в обработке</string>
+    <string name="event_withdraw_completed">переведено</string>
+    <string name="event_withdraw_rejected">отклонено</string>
+
+    <string name="event_message_read">прочитано</string>
+    <string name="event_message_unread">не прочитано</string>
+
+    <string name="help_title">Справка</string>
+    <string name="help_text">В поле <i>электронная почта</i> укажите Ваш почтовый адрес (не от аккаунта Wargaming).\nЭтот адрес не обязательно должен быть настоящим, но помните: в случае потери пароля к аккаунту и не имея доступа к почтовому ящику единственное, что можно будет сделать - удалить аккаунт.</string>
+    
+    <plurals name="timeout_plurals">
+        <item quantity="zero">0 секунд</item>
+        <item quantity="one">%1$d секунду</item>
+        <item quantity="two">%1$d секунды</item>
+        <item quantity="few">%1$d секунды</item>
+        <item quantity="many">%1$d секунд</item>
+        <item quantity="other">%1$d секунд</item>
+    </plurals>
+</resources>
